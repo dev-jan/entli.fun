@@ -1,0 +1,20 @@
+{
+  "short_name": "entli.fun",
+  "name": "Änti en Verein",
+  "icons": [
+    {
+      "src": "/assets/favicon-96x96.ico",
+      "sizes": "96x96",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/apple-touch-icon-180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffc906",
+  "background_color": "#333333"
+}
