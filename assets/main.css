@@ -44,3 +44,55 @@ body {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+.download-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ffc906;
+  color: #333;
+  text-decoration: none;
+  padding: 1.25rem 2rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(255, 201, 6, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #ffdb4d;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 201, 6, 0.5);
+}
+
+.download-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(255, 201, 6, 0.3);
+}
+
+.download-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.download-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: left;
+}
+
+.download-text small {
+  font-size: 0.75rem;
+  font-weight: normal;
+  opacity: 0.8;
+}
